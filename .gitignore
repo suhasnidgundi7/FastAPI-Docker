@@ -34,10 +34,7 @@ build/
 *.swp
 .DS_Store
 
-# Docker related files
-docker-compose.yml
-Dockerfile
-.env
+
 
 # Exclude the __pycache__ and .pyc files in the app directory
 app/__pycache__/
