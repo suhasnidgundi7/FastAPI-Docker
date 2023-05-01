@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.dll
+*.pyd
+
+# Logs and databases
+*.log
+*.db
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Dependency directories
+venv/
+env/
+site/
+lib/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+*.tar.gz
+*.whl
+
+# Other generated files
+*.swp
+.DS_Store
+
+# Docker related files
+docker-compose.yml
+Dockerfile
+.env
+
+# Exclude the __pycache__ and .pyc files in the app directory
+app/__pycache__/
+app/*.pyc
